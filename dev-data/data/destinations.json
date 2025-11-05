@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Boone Hall Plantation Experience",
+    "summary": "Step back in time with a visit to one of America’s oldest working plantations.",
+    "description": "Explore the sweeping oak-lined avenue, historic antebellum house, and scenic gardens at Boone Hall. Learn about Charleston’s complex history, from agriculture to Gullah culture. This single-day experience offers guided tours, time for independent exploration, and optional wine tastings or picnics along the riverfront.",
+    "imageCover": "boonehall-cover.jpg",
+    "images": ["boonehall-1.jpg", "boonehall-2.jpg", "boonehall-3.jpg"],
+    "location": {
+      "description": "Boone Hall Plantation & Gardens, Mount Pleasant, SC",
+      "type": "Point",
+      "coordinates": [32.858496920148994, -79.8229110553442],
+      "address": "1235 Long Point Rd, Mt Pleasant, SC 29464, USA"
+    },
+    "activities": [
+      {
+        "name": "Historic Home Tour",
+        "duration": "1h",
+        "maxGroupSize": 15,
+        "description": "A guided tour through the Boone Hall mansion and preserved rooms.",
+        "included": true
+      },
+      {
+        "name": "Gullah Culture Presentation",
+        "duration": "45m",
+        "maxGroupSize": 35,
+        "description": "A moving live presentation of Gullah storytelling and traditions.",
+        "included": true
+      }
+    ],
+    "duration": 1,
+    "price": 79,
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 312,
+    "tags": ["history", "culture", "Charleston"]
+  },
+  {
+    "name": "Folly Beach Getaway",
+    "summary": "Sun, surf, and coastal vibes just 20 minutes from downtown Charleston.",
+    "description": "Folly Beach offers six miles of wide sandy beaches, perfect for swimming, surfing, or simply relaxing with a drink in hand. Local restaurants and live music spots make this a favorite Lowcountry destination for both residents and travelers.",
+    "imageCover": "folly-cover.jpg",
+    "images": ["folly-1.jpg", "folly-2.jpg", "folly-3.jpg"],
+    "location": {
+      "description": "Folly Beach, Charleston, SC",
+      "type": "Point",
+      "coordinates": [32.66883856010981, -79.9076046412997],
+      "address": "Folly Beach, SC 29439, USA"
+    },
+    "activities": [
+      {
+        "name": "Surfing Lessons",
+        "duration": "2h",
+        "maxGroupSize": 10,
+        "description": "Learn to surf with local instructors — all levels welcome.",
+        "included": false
+      },
+      {
+        "name": "Pier Walk",
+        "duration": "30m",
+        "maxGroupSize": 20,
+        "description": "A scenic stroll along the iconic Folly Beach Pier.",
+        "included": true
+      }
+    ],
+    "duration": 1,
+    "price": 0,
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 523,
+    "tags": ["beach", "nature", "relaxation"]
+  },
+  {
+    "name": "Charleston Historic Walking Tour",
+    "summary": "Explore the cobblestone streets, antebellum architecture, and rich history of downtown Charleston.",
+    "description": "This guided walking tour takes you through some of Charleston’s most iconic landmarks — from Rainbow Row and the Battery to hidden alleyways filled with charm and stories. Ideal for first-time visitors or locals looking to rediscover their city.",
+    "imageCover": "downtown-cover.jpg",
+    "images": ["downtown-1.jpg", "downtown-2.jpg", "downtown-3.jpg"],
+    "location": {
+      "description": "Downtown Charleston, SC",
+      "type": "Point",
+      "coordinates": [32.77704563918299, -79.9268388628736],
+      "address": "122 E Bay St, Charleston, SC 29401, USA"
+    },
+    "activities": [
+      {
+        "name": "Rainbow Row Stop",
+        "duration": "15m",
+        "maxGroupSize": 25,
+        "description": "Photo stop and history briefing at Charleston’s most colorful landmark.",
+        "included": true
+      },
+      {
+        "name": "Waterfront Park",
+        "duration": "20m",
+        "maxGroupSize": 50,
+        "description": "Stroll along the iconic Pineapple Fountain and harbor views.",
+        "included": true
+      }
+    ],
+    "duration": 1,
+    "price": 35,
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 214,
+    "tags": ["history", "culture", "city"]
+  }
+]
