@@ -10,12 +10,7 @@ const DB = process.env.DATABASE.replace(
   process.env.DATABASE_PASSWORD
 );
 
-mongoose
-  .connect(DB, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
-  .then(() => console.log('DB connection successfull'));
+mongoose.connect(DB).then(() => console.log('DB connection successfull'));
 
 const destinations = JSON.parse(
   fs.readFileSync('./dev-data/data/destinations.json', 'utf-8')
